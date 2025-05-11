@@ -24,7 +24,7 @@ public class ProveedorController {
             return ResponseEntity.ok(proveedores);
         }
     }
-    //buscar x id
+    //buscar x id funciona
     @GetMapping("/{id}")
     public ResponseEntity<?> buscarPorId(@PathVariable Long id) {
         Proveedor proveedor = proveedorService.buscarPorId(id);
