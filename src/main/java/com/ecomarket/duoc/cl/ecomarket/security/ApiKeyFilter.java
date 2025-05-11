@@ -1,4 +1,5 @@
-package cl.duoc.demomicroservicio.security;
+
+package com.ecomarket.duoc.cl.ecomarket.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
